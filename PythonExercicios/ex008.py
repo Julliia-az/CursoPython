@@ -1,5 +1,9 @@
-m = float(input('Digite o valor em metros: '))
-cm = m * 100
-mm = m * 1000
-print('Valor em centímetros: {:.0f}\n'
-      'Valor em milímetros: {:.0f}'.format(cm,mm))
+m = float(input('Digite a medida em metros: '))
+# km, hm, dam, m, dm, cm, mm
+km  = m / 1000
+hm  = m / 100
+dam = m / 10
+dm  = m * 10
+cm  = m * 100
+mm  = m * 1000
+print('A medida de {}m corresponde a: \n{}km \n{}hm \n{}dam \n{}dm \n{}cm \n{}mm'.format(m,km,hm,dam,dm,cm,mm))
